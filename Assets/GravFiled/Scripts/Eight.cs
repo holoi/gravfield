@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.Netcode;
 
-public class Eight : MonoBehaviour
+public class Eight : NetworkBehaviour
 {
     public Transform target1;
     public Transform target2;
@@ -11,7 +12,9 @@ public class Eight : MonoBehaviour
     public float width = 1f;
     private float t = 0f;
     private float dis;
-    void Update()
+    private Vector3 _position;
+
+    private void Compute()
     {
         dis = Vector3.Distance(target1.position, target2.position) / 10;
         t += Time.deltaTime * speed;
@@ -26,6 +29,25 @@ public class Eight : MonoBehaviour
         Vector3 localPosition = new Vector3(x * lenth, 0, y * width) * dis;
         Vector3 worldPosition = midpoint + rotation * localPosition;
 
-        transform.position = worldPosition;
+        _position= worldPosition;
     }
+
+    [ClientRpc]
+    private void PositionGiveClientRpc(Vector3 _position)
+    {
+        this.transform.position = _position;
+    }
+
+
+
+    void Update()
+    {
+        if (IsServer)
+        {
+            Compute();
+            PositionGiveClientRpc(_position);
+        }
+    }
+
+
 }

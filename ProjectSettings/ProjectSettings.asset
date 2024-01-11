@@ -851,7 +851,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: 
     Standalone: UNITY_XR_ARKIT_LOADER_ENABLED
-    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED
+    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED;AMPLIFY_SHADER_EDITOR
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1

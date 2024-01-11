@@ -49,7 +49,7 @@ namespace OscJack
         {
             if (_client == null) return;
             distance = Vector3.Distance(player1.position, player2.position);
-
+            distance = Math.Clamp(distance * 30 , 10 , 100);
 
 
 
