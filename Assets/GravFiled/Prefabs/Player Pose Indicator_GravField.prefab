@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 5707282
+  GlobalObjectIdHash: 4140923341
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
   ActiveSceneSynchronization: 0
@@ -123,4 +123,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94c58fe80579c45f1bf95c296329a03d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_HoloKitMarkPrefab: {fileID: 2280931343860109315, guid: 46cda46aeea43471aaf495ebf2093d82, type: 3}
+  m_HoloKitMarkPrefab: {fileID: 2280931343860109315, guid: 433c9e3b42afd4aecbee05eddccc02c9, type: 3}
