@@ -50,6 +50,8 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -97,5 +99,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f22c878404db49e9aaa2464e8a3859e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPoseSynchronizer: {fileID: 0}
   m_Offset: {x: 0, y: 0.15, z: 0}
