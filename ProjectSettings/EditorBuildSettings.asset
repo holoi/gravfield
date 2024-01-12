@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GravFiled/Scenes/GravField.unity
     guid: e47b30d89d31542e2992f6a963b38ac8
+  - enabled: 0
+    path: Assets/GravFiled/Scenes/GravFieldfor2.unity
+    guid: 4f3fdef4352c44b2ab626006a652b79c
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 0eb36a35e1ef1cb4fae59380454bdd83, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: c7e362ba310afd24e8fde9976aac5180, type: 2}
