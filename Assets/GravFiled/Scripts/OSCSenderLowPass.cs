@@ -7,16 +7,15 @@ using System.Reflection;
 
 namespace OscJack
 {
-    public sealed class OSCSender : MonoBehaviour
+    public sealed class OSCSenderLowPass : MonoBehaviour
     {
 
 
         [SerializeField] OscConnection _connection = null;
         [SerializeField] string _oscAddress = "/unity";
 
-        public Transform player1;
-        public Transform player2;
-        private float distance;
+        public Eight eight;
+        private float lowPass;
 
 
 
@@ -48,12 +47,13 @@ namespace OscJack
         void Update()
         {
             if (_client == null) return;
-            distance = Vector3.Distance(player1.position, player2.position);
-            distance = Math.Clamp(distance * 30 , 10 , 100);
+
+            lowPass = 1 - eight.dis0_1;
 
 
 
-            _client.Send(_oscAddress, distance);
+
+            _client.Send(_oscAddress, lowPass);
         }
     }
 }

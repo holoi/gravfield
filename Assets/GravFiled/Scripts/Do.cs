@@ -10,12 +10,12 @@ public class Do : NetworkBehaviour
     public Transform Camera;
     public Transform player1;
     public Transform player2;
+    public Transform player3;
 
     void Start()
     {
         Camera = GameObject.Find("Main Camera").GetComponent<Transform>();
-        if (Camera == null)
-            return;
+
     }
 
     void Update()
@@ -25,21 +25,30 @@ public class Do : NetworkBehaviour
             Camera = GameObject.Find("Main Camera").GetComponent<Transform>();
             return;
         }
-        PositionGiveServerRpc(Camera.position);
+        PositionGiveServerRpc(Camera.position , Camera.rotation.eulerAngles);
+
+
 
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void PositionGiveServerRpc(Vector3 _cameraPosition , ServerRpcParams serverRpcParams = default)
+    private void PositionGiveServerRpc(Vector3 _cameraPosition , Vector3 _cameraRotation , ServerRpcParams serverRpcParams = default)
     {
         ulong Id = serverRpcParams.Receive.SenderClientId;
         if (Id == 1)
         {
             player1.position = _cameraPosition;
+            player1.rotation = Quaternion.Euler(_cameraRotation);
         }
         else if (Id == 2)
         {
             player2.position = _cameraPosition;
+            player2.rotation = Quaternion.Euler(_cameraRotation);
+        }
+        else if (Id == 3)
+        {
+            player3.position = _cameraPosition;
+            player3.rotation = Quaternion.Euler(_cameraRotation);
         }
 
 
