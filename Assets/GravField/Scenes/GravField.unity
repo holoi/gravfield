@@ -168,7 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 10175841}
   m_VisualEffect: {fileID: 10175844}
 --- !u!73398921 &10175843
 VFXRenderer:
@@ -1685,6 +1686,9 @@ MonoBehaviour:
   _smoothFall: 1
   _fallSpeed: 0.8
   _propertyBinders: []
+  _normalizedLevel: 0
+  _head: -60
+  _fall: 0
   references:
     version: 2
     RefIds: []
@@ -2052,7 +2056,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 446215921}
   m_VisualEffect: {fileID: 446215924}
 --- !u!73398921 &446215923
 VFXRenderer:
@@ -2620,7 +2625,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 485759398}
   m_VisualEffect: {fileID: 485759396}
 --- !u!114 &485759400
 MonoBehaviour:
@@ -2634,6 +2640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2091ac4b848396c4586dba9485bea90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  binder: {fileID: 0}
   _property:
     m_Name: Amplitude
   Target: {fileID: 1871074530}
@@ -3599,7 +3606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 703365642}
   m_VisualEffect: {fileID: 703365645}
 --- !u!73398921 &703365644
 VFXRenderer:
@@ -5823,7 +5831,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 1363490124}
   m_VisualEffect: {fileID: 1363490127}
 --- !u!73398921 &1363490126
 VFXRenderer:
@@ -7277,7 +7286,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1871074530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7300,6 +7309,9 @@ MonoBehaviour:
   _smoothFall: 1
   _fallSpeed: 0.792
   _propertyBinders: []
+  _normalizedLevel: 0
+  _head: -60
+  _fall: 0
   references:
     version: 2
     RefIds: []
@@ -7611,6 +7623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2091ac4b848396c4586dba9485bea90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  binder: {fileID: 0}
   _property:
     m_Name: amplitude
   Target: {fileID: 374002725}
@@ -7645,7 +7658,6 @@ MonoBehaviour:
   m_ExecuteInEditor: 1
   m_Bindings:
   - {fileID: 1958827445}
-  - {fileID: 1958827444}
   m_VisualEffect: {fileID: 1958827448}
 --- !u!73398921 &1958827447
 VFXRenderer:
@@ -8184,6 +8196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2091ac4b848396c4586dba9485bea90f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  binder: {fileID: 0}
   _property:
     m_Name: Amplitude
   Target: {fileID: 1871074530}
@@ -8218,7 +8231,6 @@ MonoBehaviour:
   m_ExecuteInEditor: 1
   m_Bindings:
   - {fileID: 2105038447}
-  - {fileID: 2105038446}
   m_VisualEffect: {fileID: 2105038444}
 --- !u!1 &2113942966
 GameObject:
