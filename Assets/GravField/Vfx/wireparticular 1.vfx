@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7d4c867f6b72b714dbb5fd1780afe208, type: 3}
-  m_Name: wireparticular
+  m_Name: wireparticular 1
   m_EditorClassIdentifier: 
   m_UIIgnoredErrors: []
   m_Parent: {fileID: 0}
@@ -171,7 +171,7 @@ VisualEffectResource:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: wireparticular
+  m_Name: wireparticular 1
   m_Graph: {fileID: 114350483966674976}
   m_Infos:
     m_RendererSettings:
@@ -2259,7 +2259,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0
+      m_SerializableObject: -0.48
     m_Space: -1
   m_Property:
     name: attractionSpeed
@@ -3125,7 +3125,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.72
+      m_SerializableObject: 3.32
     m_Space: -1
   m_Property:
     name: Drag
@@ -3295,7 +3295,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: False
+      m_SerializableObject: True
     m_Space: -1
   m_Property:
     name: _vfx_enabled
@@ -3689,7 +3689,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0
+      m_SerializableObject: 0.32
     m_Space: -1
   m_Property:
     name: attractionSpeed
@@ -3890,7 +3890,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEditor.VFX.TSphere, Unity.VisualEffectGraph.Editor,
           Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"transform":{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":1.0,"y":1.0,"z":1.0}},"radius":12.40999984741211}'
+      m_SerializableObject: '{"transform":{"position":{"x":0.0,"y":0.0,"z":0.0},"angles":{"x":0.0,"y":0.0,"z":0.0},"scale":{"x":1.0,"y":1.0,"z":1.0}},"radius":0.46000000834465029}'
     m_Space: 0
   m_Property:
     name: sphere
@@ -4399,7 +4399,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3.77
+      m_SerializableObject: 2.07
     m_Space: -1
   m_Property:
     name: Bounce
@@ -4433,7 +4433,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 3.39
+      m_SerializableObject: 1.98
     m_Space: -1
   m_Property:
     name: Friction
@@ -5150,7 +5150,7 @@ MonoBehaviour:
   AlphaComposition: 0
   SampleMode: 1
   Mode: 1
-  ColorMode: 1
+  ColorMode: 3
   channels: 6
 --- !u!114 &8926484042661614894
 MonoBehaviour:
@@ -5177,7 +5177,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.16176089644432069},{"color":{"r":1.0,"g":0.0,"b":0.06844186782836914,"a":1.0},"time":0.45000380277633669},{"color":{"r":1.0,"g":0.0,"b":0.06844186782836914,"a":1.0},"time":0.5588311553001404},{"color":{"r":0.01059722900390625,"g":0.0,"b":1.0,"a":1.0},"time":0.6852979063987732},{"color":{"r":0.01059722900390625,"g":0.0,"b":1.0,"a":1.0},"time":0.998992919921875},{"color":{"r":0.0,"g":1.0,"b":0.17274212837219239,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929}],"gradientMode":1}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":0.3029373586177826},{"color":{"r":1.0,"g":0.0,"b":0.06844186782836914,"a":1.0},"time":0.5588311553001404},{"color":{"r":0.01059722900390625,"g":0.0,"b":1.0,"a":1.0},"time":0.6852979063987732},{"color":{"r":0.01059722900390625,"g":0.0,"b":1.0,"a":1.0},"time":0.9882352948188782},{"color":{"r":0.0,"g":1.0,"b":0.13902664184570313,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":1.0,"time":0.10000763088464737},{"alpha":1.0,"time":0.800000011920929}],"gradientMode":1}'
     m_Space: -1
   m_Property:
     name: Color
@@ -7496,7 +7496,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 0.02
+      m_SerializableObject: 0.01
     m_Space: -1
   m_Property:
     name: y
@@ -8559,7 +8559,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 5.9
+      m_SerializableObject: 15
     m_Space: -1
   m_Property:
     name: b
